@@ -6,8 +6,6 @@ import NavBar from "./components/layouts/NavBar";
 import Search from "./components/utility/Search";
 import Recipes from "./components/Recipes/Recipes";
 import Alert from "./components/utility/Alert";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Contact from "./components/layouts/Contact";
 import TopSection from "./components/layouts/TopSection";
 
 const App = () => {
@@ -41,36 +39,24 @@ const App = () => {
     setTimeout(() => setAlert({}), 2000);
   };
   return (
-    <Router>
-      <Fragment>
-        <NavBar />
-        <div className="container-fluid">
-          <TopSection />
-          <h1>{process.env.MY_NAME}</h1>
-          <Switch>
-            <Route
-              exact
-              path="/"
-              render={() => (
-                <Fragment>
-                  <Alert alert={alert} />
-                  <Search
-                    onSubmit={getRecipes}
-                    showClearBtn={recipes.length > 0 ? true : false}
-                    clearRecipes={handleClearRecipes}
-                  />
-                  <Recipes recipes={recipes} loading={loading} />
-                </Fragment>
-              )}
-            />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-          <footer>
-            <div>&copy;Copyright - Hamed Ayinde Jimoh</div>
-          </footer>
-        </div>
-      </Fragment>
-    </Router>
+    <Fragment>
+      <NavBar />
+      <div className="container-fluid">
+        <TopSection />
+        <Fragment>
+          <Alert alert={alert} />
+          <Search
+            onSubmit={getRecipes}
+            showClearBtn={recipes.length > 0 ? true : false}
+            clearRecipes={handleClearRecipes}
+          />
+          <Recipes recipes={recipes} loading={loading} />
+        </Fragment>
+        <footer>
+          <div>&copy;Copyright - Hamed Ayinde Jimoh</div>
+        </footer>
+      </div>
+    </Fragment>
   );
 };
 

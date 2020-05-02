@@ -1,15 +1,14 @@
 import React from "react";
 import logo from "./logo.png";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <header>
       <nav>
-        <Link to="/">
+        <a href="#">
           <img src={logo} alt="Logo" width={90} />
-        </Link>
+        </a>
         <h1>Chefs Mentor</h1>
       </nav>
     </header>
