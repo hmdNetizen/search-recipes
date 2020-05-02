@@ -1,0 +1,29 @@
+body {
+  background: #32323d;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  height: 100%;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-100px);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 540px) {
+  nav h1 {
+    font-size: 1.3em;
+    margin-left: 0;
+  }
+}
