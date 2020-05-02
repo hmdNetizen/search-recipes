@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/search-recipe/static/css/main.6572a1fe.chunk.css",
-    "main.js": "/search-recipe/static/js/main.205eec70.chunk.js",
-    "main.js.map": "/search-recipe/static/js/main.205eec70.chunk.js.map",
-    "runtime-main.js": "/search-recipe/static/js/runtime-main.67707501.js",
-    "runtime-main.js.map": "/search-recipe/static/js/runtime-main.67707501.js.map",
-    "static/js/2.77ad5d17.chunk.js": "/search-recipe/static/js/2.77ad5d17.chunk.js",
-    "static/js/2.77ad5d17.chunk.js.map": "/search-recipe/static/js/2.77ad5d17.chunk.js.map",
-    "index.html": "/search-recipe/index.html",
-    "precache-manifest.69e4a653455a321ccf6fd4ff8349043f.js": "/search-recipe/precache-manifest.69e4a653455a321ccf6fd4ff8349043f.js",
-    "service-worker.js": "/search-recipe/service-worker.js",
-    "static/css/main.6572a1fe.chunk.css.map": "/search-recipe/static/css/main.6572a1fe.chunk.css.map",
-    "static/js/2.77ad5d17.chunk.js.LICENSE.txt": "/search-recipe/static/js/2.77ad5d17.chunk.js.LICENSE.txt",
-    "static/media/loading.gif": "/search-recipe/static/media/loading.a1997869.gif",
-    "static/media/logo.png": "/search-recipe/static/media/logo.9cf51d02.png",
-    "static/media/TopSection.css": "/search-recipe/static/media/recipes.f31da64a.jpg"
+    "main.css": "/search-recipes/static/css/main.95bdb3aa.chunk.css",
+    "main.js": "/search-recipes/static/js/main.205eec70.chunk.js",
+    "main.js.map": "/search-recipes/static/js/main.205eec70.chunk.js.map",
+    "runtime-main.js": "/search-recipes/static/js/runtime-main.48e40d8f.js",
+    "runtime-main.js.map": "/search-recipes/static/js/runtime-main.48e40d8f.js.map",
+    "static/js/2.77ad5d17.chunk.js": "/search-recipes/static/js/2.77ad5d17.chunk.js",
+    "static/js/2.77ad5d17.chunk.js.map": "/search-recipes/static/js/2.77ad5d17.chunk.js.map",
+    "index.html": "/search-recipes/index.html",
+    "precache-manifest.b481eda637d13c9ea2b011a14c6162a0.js": "/search-recipes/precache-manifest.b481eda637d13c9ea2b011a14c6162a0.js",
+    "service-worker.js": "/search-recipes/service-worker.js",
+    "static/css/main.95bdb3aa.chunk.css.map": "/search-recipes/static/css/main.95bdb3aa.chunk.css.map",
+    "static/js/2.77ad5d17.chunk.js.LICENSE.txt": "/search-recipes/static/js/2.77ad5d17.chunk.js.LICENSE.txt",
+    "static/media/loading.gif": "/search-recipes/static/media/loading.a1997869.gif",
+    "static/media/logo.png": "/search-recipes/static/media/logo.9cf51d02.png",
+    "static/media/TopSection.css": "/search-recipes/static/media/recipes.f31da64a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.67707501.js",
+    "static/js/runtime-main.48e40d8f.js",
     "static/js/2.77ad5d17.chunk.js",
-    "static/css/main.6572a1fe.chunk.css",
+    "static/css/main.95bdb3aa.chunk.css",
     "static/js/main.205eec70.chunk.js"
   ]
 }
