@@ -10,8 +10,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./components/layouts/Contact";
 import TopSection from "./components/layouts/TopSection";
 
-console.log(process.env.REACT_APP_API_ID);
-
 const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
