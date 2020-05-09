@@ -1,0 +1,10 @@
+footer {
+  color: #f2f2f2;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer > div {
+  margin-top: 9em;
+}

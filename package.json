@@ -2,7 +2,7 @@
   "name": "food-recipes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hmdNetizen.github.io/search-recipe",
+  "homepage": "https://hmdNetizen.github.io/search-recipes",
   "proxy": "https://api.edamam.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

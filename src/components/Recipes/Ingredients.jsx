@@ -5,7 +5,7 @@ const Ingredients = (props) => {
     <div
       style={{
         border: "1px solid rgba(235, 242, 249, .3)",
-        padding: 10,
+        padding: "10px 10px 10px 0",
         margin: "10px 10px 20px",
       }}
     >
